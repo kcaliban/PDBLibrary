@@ -68,13 +68,14 @@ If you only want the helices of say length 12, you can copy these into a directo
 called e.g. `helices_12` by
 
 ```bash
+mkdir helices_12
 for i in helices/12_*; do cp $i helices_12; done
 ```
 
 ### Removing duplicates and files with alternate locations
 
 A lot of helices, especially short ones, reappear in different proteins.
-Also, some structures contain alternate locations for `CA` atoms,
+Also, some structures contain alternate locations for CA atoms,
 for which both get interpreted as seperate atoms in programs like Autodock Vina.
 To make this library ready for tools like Autodock Vina, these files get
 discarded.
