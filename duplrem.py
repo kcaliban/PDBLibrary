@@ -2,7 +2,7 @@
 """ Remove redundant PDBs, i.e. PDBs with the same sequences
     Read line by line, calculate and compare hashes of relevant information.
 
-    Copyright 2019 Fabian Krause
+    Copyright 2019 iGEM Team Freiburg 2019
 """
 
 import sys, os, re, hashlib

@@ -3,7 +3,7 @@
     helices of length to be specified
     using a "sliding" window over the helix
 
-    Copyright 2019 Fabian Krause
+    Copyright 2019 iGEM Team Freiburg 2019
 """
 
 import sys, os ,re
